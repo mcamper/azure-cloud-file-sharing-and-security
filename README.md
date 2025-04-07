@@ -1,12 +1,10 @@
 <p align="center">
-<img width="121" alt="image" src="https://github.com/user-attachments/assets/041abe39-4ad5-4d36-8b6b-e6f4474a1e69" />
+<img width="224" alt="image" src="https://github.com/user-attachments/assets/6b91a376-d039-458b-becb-ff416da3771d" />
 
 </p>
 
-<h1>Cloud DNS Configuration and Virtual Machine Management in Azure</h1>
-Building on a previously established domain controller and Client-1 VM, this tutorial focuses on configuring DNS settings and managing virtual machines within the Azure cloud environment. You'll explore key DNS exercies to enhance your cloud infrastructure without redoing the initial setup <br />
-
-
+<h1>Cloud File Sharing and Security Management in Azure</h1>
+Building on a previously established domain controller and Client-1 VM, this tutorial focuses on stting up file shares and managing security permissions in the Azure cloud environment. You'll learn how to create file shares, assign permissions, and utilize Azure security groups without repeating the initial setup process. <br />
 
 <h2>Environments and Technologies Used</h2>
 
