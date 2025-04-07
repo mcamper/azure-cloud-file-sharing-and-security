@@ -30,11 +30,11 @@ Building on a previously established domain controller and Client-1 VM, this tut
 
 <h2>Overview of Azure File Sharing and Security Management Steps</h2>
 
-- Step 1: A-Record Exercise
-- Step 2: Local DNS Cache Exercise
-- Step 3: CNAME Record Exercise
+- Step 1: Create Sample File Shares with Various Permissions
+- Step 2: Attempt to Access File Shares as a Normal User
+- Step 3: Create a Security Group. Assign Permissions and Test Access
 
-<h2>Step 1: A-Record Exercise</h2>
+<h2>Step 1: Create Sample Files Shares with Various Permissions</h2>
 <p>
   <ol>
     <li>Inspect DNS A-Records on the Server</li>
@@ -48,7 +48,7 @@ Building on a previously established domain controller and Client-1 VM, this tut
           
 </ol>
 
-<h2>Step 2: Local DNS Cache Exercise</h2>
+<h2>Step 2: Attempt to Access File Shares as a Normal User</h2>
 <p>
   <ol>
     <li>Go back to DC-1 and change mainframe's record address to 8.8.8.8</li>
@@ -61,7 +61,7 @@ Building on a previously established domain controller and Client-1 VM, this tut
     
   </ol>
 <p>
-<h2>Step 3: Create CNAME Record</h2>
+<h2>Step 3: Create a Security Group. Assign Permissions and Test Access</h2>
 <p>
   <ol>
      <li>Go back to DC-1 and create a CNAME record that points the host "search" to "www.google.com"</li>
