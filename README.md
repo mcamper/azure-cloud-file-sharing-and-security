@@ -27,6 +27,8 @@ Building on a previously established domain controller and Client-1 VM, this tut
 - You've must have completed the last lab AzAD-DomainSetup(https://github.com/mcamper/AzAD-DomainSetup) and have the following setup:
   <ul><li>Active Directory running in Azure on a virtual machine (DC-1)</li>
   <li>A client machine running in Azure on a virtual machine (Client-1) and joined to the domain</li></ul>
+    <img width="970" alt="image" src="https://github.com/user-attachments/assets/b07d1642-f32f-49f4-8e17-566308e6de88" />
+
 
 <h2>Overview of Azure File Sharing and Security Management Steps</h2>
 
@@ -37,9 +39,10 @@ Building on a previously established domain controller and Client-1 VM, this tut
 <h2>Step 1: Create Sample Files Shares with Various Permissions</h2>
 <p>
   <ol>
-    <li>Inspect DNS A-Records on the Server</li>
-      <ul><li>Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin)</li></ul>
-      <ul><li>Connect/log into Client-1 as an admin (mydomain\jane_admin)</li></ul>
+      <li>Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin)</li>
+          <img width="254" alt="image" src="https://github.com/user-attachments/assets/e7ca5f69-1497-4303-982a-ce31890442a6" />
+      <li>Connect/log into Client-1 as an admin (mydomain\jane_admin)</li>
+          <img width="305" alt="image" src="https://github.com/user-attachments/assets/05987c67-bee4-4422-8843-a0fb69245fab" />
       <ul><li>From Client-1, try to ping "mainframe". Notice that it fails</li></ul>
       <ul><li>Nslookup "mainframe". Notice that it fails (no DNS record)</li></ul>
     <li>Create an A-Record on the server and observe from the client</li> 
