@@ -90,25 +90,28 @@ Building on a previously established domain controller and Client-1 VM, this tut
     <img width="701" alt="image" src="https://github.com/user-attachments/assets/930bf8c5-df08-4c8d-a453-a6e576c15de9" />
     <img width="616" alt="image" src="https://github.com/user-attachments/assets/cff24f98-6bcf-46e0-a93c-10da91e7c396" />
 
-
-
-
-
-
-    <li>Observe the local DNS cache (iponfig /displaydns)</li>
-    <li>Delete record(s) from server and observe the client DNS cache</li>
-      <ul><li>Flush the DNS cache (ipconfig /flushdns)</li></ul>
-      <ul><li>Observe that the cache is empty (iponfig /displaydns)</li></ul>
-    <li>Attempt to ping "mainframe" again. Observe the address of the new record is showing up</li>
-    
   </ol>
 <p>
 <h2>Step 3: Create a Security Group. Assign Permissions and Test Access</h2>
 <p>
   <ol>
-     <li>Go back to DC-1 and create a CNAME record that points the host "search" to "www.google.com"</li>
-     <li>Go back to Client-1 and attempt to ping "search". Observe the results of the CNAME record</li>
-     <li>On Client-1, nslookup "search". Observe the results of the CNAME record</li>
+     <li>Go back to DC-1, in Active Directory, create a security group called "ACCOUNTANTS" </li>
+        <img width="529" alt="image" src="https://github.com/user-attachments/assets/952245e7-e2b5-4505-9ad2-7b004b9637a0" />
+        <img width="456" alt="image" src="https://github.com/user-attachments/assets/9b25f2b1-d095-4da9-897e-6b3641067741" />
+        <img width="279" alt="image" src="https://github.com/user-attachments/assets/6bbcb10d-fca1-4338-9003-6dff5193f0f8" />
+        <img width="277" alt="image" src="https://github.com/user-attachments/assets/abb1484f-2ad6-4ae6-ad43-430ab3587a2c" />
+        <img width="474" alt="image" src="https://github.com/user-attachments/assets/f1e5b23a-7ddd-4746-aa4a-ac03f30f01a1" />
+        <img width="282" alt="image" src="https://github.com/user-attachments/assets/fe2a7c0c-a2a3-4c76-9c30-c3aa0b40dcfc" />
+        <img width="470" alt="image" src="https://github.com/user-attachments/assets/2aa0e374-8d50-4dcd-b355-abf2accc4ce8" />
+     <li>On the "accounting" folder you created earlier, set the following permissions:</li> 
+        <img width="631" alt="image" src="https://github.com/user-attachments/assets/6273887e-0219-4e30-8fde-88a68350d14d" />
+
+
+       <ul><li>a. folder: "accounting", Group: "ACCOUNTANTS", Permissions: "Read/Write"</li></ul>
+    <li>On Client-1, as banu.bij, tryto access the accountants folder. It should fail.</li>
+    <li>Log out of Client-1 as banu.bij</li>
+    <li>on DC-1, make banu.bij a member of the "ACCOUNTANTS" Security Group</li>
+    <li>Sign back nto Client-1 as banu.bij and try to access the "accounting" share in \\dc-1.  Does it work now?</li>
        
   </ol>
 <p>
