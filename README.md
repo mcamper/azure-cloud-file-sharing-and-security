@@ -47,14 +47,13 @@ Building on a previously established domain controller and Client-1 VM, this tut
           <img width="272" alt="image" src="https://github.com/user-attachments/assets/42596134-aa9a-4bc2-a119-9270bb79ab55" />
           <img width="589" alt="image" src="https://github.com/user-attachments/assets/cea96a53-05e2-4a18-85be-ad4ecc237d36" />
           <img width="451" alt="image" src="https://github.com/user-attachments/assets/09b27a4d-e8a9-44de-917f-a70bcd4ca274" />
-
-
-
       <li>Set the following permissions (share the folder)</li> 
-          <ul><li>Create a DNS A-Record on DC-1 for "mainframe" and have it point to DC-1' Private IP address</li></ul>
-          <ul><li>Go back to Client-1 and try to ping it. Observe that it works</li></ul>
+          <ul><li>a. Folder: "read-access", Group: "Domain Users", Permission: "Read"</li></ul>
+          <ul><li>b. Folder: "write-access", Group: "Domain Users", Permissions: "Read/Write"</li></ul>
+          <ul><li>c. Folder: "no-access", Group: "Domain Admins", Permissions: "Read/Write"</li></ul>
+          <ul><li>d. (Skip accounting for now)</li></ul>
           
-</ol>
+  </ol>
 
 <h2>Step 2: Attempt to Access File Shares as a Normal User</h2>
 <p>
