@@ -55,8 +55,13 @@ Building on a previously established domain controller and Client-1 VM, this tut
           <img width="354" alt="image" src="https://github.com/user-attachments/assets/b55e586e-3848-46a8-9bbd-e7fde045a5ea" />
           <img width="359" alt="image" src="https://github.com/user-attachments/assets/05b54f4c-9a6d-492f-a15a-42b88d397246" />
           <img width="361" alt="image" src="https://github.com/user-attachments/assets/c93e37f9-d0c2-4324-bea9-90fe7c4e9dd4" />
-
+          <img width="245" alt="image" src="https://github.com/user-attachments/assets/7845c8ce-f600-4a81-bf41-93a64d6eaf13" />
           <ul><li>b. Folder: "write-access", Group: "Domain Users", Permissions: "Read/Write"</li></ul>
+          <img width="515" alt="image" src="https://github.com/user-attachments/assets/b1b7629a-b683-4cfb-9ced-caa8252f0b84" />
+          <img width="341" alt="image" src="https://github.com/user-attachments/assets/6c4e020e-d877-4b90-abd1-dccd5b2ee568" />
+          <img width="371" alt="image" src="https://github.com/user-attachments/assets/8a439c6f-2cb7-46d9-867a-3111d101df0d" />
+          <img width="359" alt="image" src="https://github.com/user-attachments/assets/fa34ba3a-d194-4fea-922b-e8d03b1884ae" />
+          <img width="241" alt="image" src="https://github.com/user-attachments/assets/1be5e5db-b35d-401c-a2ea-f62ee06110b7" />
           <ul><li>c. Folder: "no-access", Group: "Domain Admins", Permissions: "Read/Write"</li></ul>
           <ul><li>d. (Skip accounting for now)</li></ul>
           
