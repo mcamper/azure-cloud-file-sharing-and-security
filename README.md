@@ -79,13 +79,22 @@ Building on a previously established domain controller and Client-1 VM, this tut
     <li>On Client-1, navigate to the shared folder (File Explorer, \\dc-1)</li>
     <img width="458" alt="image" src="https://github.com/user-attachments/assets/4244fbe3-8c45-4d2f-b047-c0b9fc1d016c" />
     <img width="233" alt="image" src="https://github.com/user-attachments/assets/828b46a2-3d29-4ec9-9876-6a62c6e1afb1" />
-
-
-
-
-
-
+    <img width="713" alt="image" src="https://github.com/user-attachments/assets/f339a8ae-31c8-447e-ad3c-2517373ef420" />
     <li>Try to access the folders you just created. Which folders can you access? Which folders can you create stuff in ? Does it make sense?</li>
+    <img width="682" alt="image" src="https://github.com/user-attachments/assets/8aaa9d4a-f7ea-433c-b6fa-507890e11bd8" />
+    <img width="672" alt="image" src="https://github.com/user-attachments/assets/d5e24699-5b1c-4573-9da2-f306cc92a1d1" />
+    <img width="278" alt="image" src="https://github.com/user-attachments/assets/5f19e4a2-5568-4d05-bae6-e9f416e38950" />
+    <img width="711" alt="image" src="https://github.com/user-attachments/assets/630b9925-e25a-448e-82bb-851a036c6ff5" />
+    <img width="697" alt="image" src="https://github.com/user-attachments/assets/3dc04074-12f2-4222-85f3-9e50ad3a1619" />
+    <img width="701" alt="image" src="https://github.com/user-attachments/assets/9c451b76-4124-4584-a61b-7e3ff7300dbb" />
+    <img width="701" alt="image" src="https://github.com/user-attachments/assets/930bf8c5-df08-4c8d-a453-a6e576c15de9" />
+    <img width="616" alt="image" src="https://github.com/user-attachments/assets/cff24f98-6bcf-46e0-a93c-10da91e7c396" />
+
+
+
+
+
+
     <li>Observe the local DNS cache (iponfig /displaydns)</li>
     <li>Delete record(s) from server and observe the client DNS cache</li>
       <ul><li>Flush the DNS cache (ipconfig /flushdns)</li></ul>
