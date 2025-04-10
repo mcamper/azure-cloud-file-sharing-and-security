@@ -63,6 +63,12 @@ Building on a previously established domain controller and Client-1 VM, this tut
           <img width="359" alt="image" src="https://github.com/user-attachments/assets/fa34ba3a-d194-4fea-922b-e8d03b1884ae" />
           <img width="241" alt="image" src="https://github.com/user-attachments/assets/1be5e5db-b35d-401c-a2ea-f62ee06110b7" />
           <ul><li>c. Folder: "no-access", Group: "Domain Admins", Permissions: "Read/Write"</li></ul>
+          <img width="552" alt="image" src="https://github.com/user-attachments/assets/6e489642-1602-40bf-8a3d-11b7d62dfa57" />
+          <img width="351" alt="image" src="https://github.com/user-attachments/assets/143492a0-7cc6-4896-b63e-16b2e3c2d0a8" />
+          <img width="357" alt="image" src="https://github.com/user-attachments/assets/93007629-516e-4adb-b61b-d7b0225c17e4" />
+          <img width="342" alt="image" src="https://github.com/user-attachments/assets/d4f589b1-b3fd-4311-be8c-5e0bbd3475f5" />
+          <img width="352" alt="image" src="https://github.com/user-attachments/assets/1811e788-dc5d-411f-a51a-3f9d088697ea" />
+          <img width="248" alt="image" src="https://github.com/user-attachments/assets/974c576a-53b0-42cc-9548-ffad595d80c6" />
           <ul><li>d. (Skip accounting for now)</li></ul>
           
   </ol>
@@ -70,8 +76,16 @@ Building on a previously established domain controller and Client-1 VM, this tut
 <h2>Step 2: Attempt to Access File Shares as a Normal User</h2>
 <p>
   <ol>
-    <li>Go back to DC-1 and change mainframe's record address to 8.8.8.8</li>
-    <li>Go back to Client-1 and ping "mainframe" again. Observe that it still pings the old address</li>
+    <li>On Client-1, navigate to the shared folder (File Explorer, \\dc-1)</li>
+    <img width="458" alt="image" src="https://github.com/user-attachments/assets/4244fbe3-8c45-4d2f-b047-c0b9fc1d016c" />
+    <img width="233" alt="image" src="https://github.com/user-attachments/assets/828b46a2-3d29-4ec9-9876-6a62c6e1afb1" />
+
+
+
+
+
+
+    <li>Try to access the folders you just created. Which folders can you access? Which folders can you create stuff in ? Does it make sense?</li>
     <li>Observe the local DNS cache (iponfig /displaydns)</li>
     <li>Delete record(s) from server and observe the client DNS cache</li>
       <ul><li>Flush the DNS cache (ipconfig /flushdns)</li></ul>
