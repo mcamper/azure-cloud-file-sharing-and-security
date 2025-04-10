@@ -47,6 +47,8 @@ Building on a previously established domain controller and Client-1 VM, this tut
           <img width="272" alt="image" src="https://github.com/user-attachments/assets/42596134-aa9a-4bc2-a119-9270bb79ab55" />
           <img width="589" alt="image" src="https://github.com/user-attachments/assets/cea96a53-05e2-4a18-85be-ad4ecc237d36" />
           <img width="451" alt="image" src="https://github.com/user-attachments/assets/09b27a4d-e8a9-44de-917f-a70bcd4ca274" />
+          <img width="502" alt="image" src="https://github.com/user-attachments/assets/3669d131-a51e-4d98-a35c-bb24129372af" />
+
       <li>Set the following permissions (share the folder)</li> 
           <ul><li>a. Folder: "read-access", Group: "Domain Users", Permission: "Read"</li></ul>
           <ul><li>b. Folder: "write-access", Group: "Domain Users", Permissions: "Read/Write"</li></ul>
