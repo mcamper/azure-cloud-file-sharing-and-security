@@ -41,9 +41,10 @@ Building on a previously established domain controller and Client-1 VM, this tut
   <ol>
       <li>Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin)</li>
           <img width="254" alt="image" src="https://github.com/user-attachments/assets/e7ca5f69-1497-4303-982a-ce31890442a6" />
-      <li>Connect/log into Client-1 as an admin (mydomain\jane_admin)</li>
-          <img width="305" alt="image" src="https://github.com/user-attachments/assets/05987c67-bee4-4422-8843-a0fb69245fab" />
-      <ul><li>From Client-1, try to ping "mainframe". Notice that it fails</li></ul>
+      <li>Connect/log into Client-1 as an admin (mydomain\banu.bij)</li>
+          <img width="302" alt="image" src="https://github.com/user-attachments/assets/c73d4839-c702-4a6f-83b2-15887bab7d8e" />
+
+      <li>On DC-1, on the C:\drive, reate 4 folders: "read-access", "write-access", "no-access", "accounting"</li> 
       <ul><li>Nslookup "mainframe". Notice that it fails (no DNS record)</li></ul>
     <li>Create an A-Record on the server and observe from the client</li> 
       <ul><li>Create a DNS A-Record on DC-1 for "mainframe" and have it point to DC-1' Private IP address</li></ul>
