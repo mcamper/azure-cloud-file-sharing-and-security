@@ -105,10 +105,18 @@ Building on a previously established domain controller and Client-1 VM, this tut
         <img width="470" alt="image" src="https://github.com/user-attachments/assets/2aa0e374-8d50-4dcd-b355-abf2accc4ce8" />
      <li>On the "accounting" folder you created earlier, set the following permissions:</li> 
         <img width="631" alt="image" src="https://github.com/user-attachments/assets/6273887e-0219-4e30-8fde-88a68350d14d" />
-
-
        <ul><li>a. folder: "accounting", Group: "ACCOUNTANTS", Permissions: "Read/Write"</li></ul>
-    <li>On Client-1, as banu.bij, tryto access the accountants folder. It should fail.</li>
+          <img width="239" alt="image" src="https://github.com/user-attachments/assets/9526beaf-88a5-4ad7-b741-17a2c4d42ecd" />
+          <img width="353" alt="image" src="https://github.com/user-attachments/assets/dbf1af8c-1bf2-4c9a-874a-c1efd5092cc4" />
+          <img width="371" alt="image" src="https://github.com/user-attachments/assets/e6da1919-d381-43ff-be24-3b9d038854e0" />
+          <img width="356" alt="image" src="https://github.com/user-attachments/assets/51c408ff-c57c-4d24-952f-7c7121c2093c" />
+          <img width="239" alt="image" src="https://github.com/user-attachments/assets/df553867-e516-432a-902b-3cad91585bea" />
+    <li>On Client-1, as banu.bij, try to access the accountants folder. It should fail.</li>
+          <img width="457" alt="image" src="https://github.com/user-attachments/assets/1d18d02e-7542-40da-8e94-6841b8deb367" />
+         <img width="710" alt="image" src="https://github.com/user-attachments/assets/0c41b7be-d573-4208-8ae2-eae98472757b" />
+
+
+
     <li>Log out of Client-1 as banu.bij</li>
     <li>on DC-1, make banu.bij a member of the "ACCOUNTANTS" Security Group</li>
     <li>Sign back nto Client-1 as banu.bij and try to access the "accounting" share in \\dc-1.  Does it work now?</li>
