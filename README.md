@@ -39,16 +39,20 @@ Building on a previously established domain controller and Client-1 VM, this tut
 <h2>Step 1: Create Sample Files Shares with Various Permissions</h2>
 <p>
   <ol>
-      <li>Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin)</li>
+      <li>Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin) password: Cyberlab123!</li>
           <img width="254" alt="image" src="https://github.com/user-attachments/assets/e7ca5f69-1497-4303-982a-ce31890442a6" />
-      <li>Connect/log into Client-1 as an admin (mydomain\banu.bij)</li>
+      <li>Connect/log into Client-1 as a normal user (mydomain\banu.bij) password: Password1</li>
           <img width="302" alt="image" src="https://github.com/user-attachments/assets/c73d4839-c702-4a6f-83b2-15887bab7d8e" />
+      <li>On DC-1, on the C:\drive, reate 4 folders: "read-access", "write-access", "no-access", "accounting"</li>
+          <img width="272" alt="image" src="https://github.com/user-attachments/assets/42596134-aa9a-4bc2-a119-9270bb79ab55" />
+          <img width="589" alt="image" src="https://github.com/user-attachments/assets/cea96a53-05e2-4a18-85be-ad4ecc237d36" />
+          <img width="451" alt="image" src="https://github.com/user-attachments/assets/09b27a4d-e8a9-44de-917f-a70bcd4ca274" />
 
-      <li>On DC-1, on the C:\drive, reate 4 folders: "read-access", "write-access", "no-access", "accounting"</li> 
-      <ul><li>Nslookup "mainframe". Notice that it fails (no DNS record)</li></ul>
-    <li>Create an A-Record on the server and observe from the client</li> 
-      <ul><li>Create a DNS A-Record on DC-1 for "mainframe" and have it point to DC-1' Private IP address</li></ul>
-      <ul><li>Go back to Client-1 and try to ping it. Observe that it works</li></ul>
+
+
+      <li>Set the following permissions (share the folder)</li> 
+          <ul><li>Create a DNS A-Record on DC-1 for "mainframe" and have it point to DC-1' Private IP address</li></ul>
+          <ul><li>Go back to Client-1 and try to ping it. Observe that it works</li></ul>
           
 </ol>
 
