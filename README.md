@@ -4,7 +4,7 @@
 </p>
 
 <h1>Cloud File Sharing and Security Management in Azure</h1>
-Building on a previously established domain controller and Client-1 VM, this tutorial focuses on stting up file shares and managing security permissions in the Azure cloud environment. You'll learn how to create file shares, assign permissions, and utilize Azure security groups without repeating the initial setup process. <br />
+Building on a previously established domain controller and Client-1 VM, this tutorial focuses on setting up file shares and managing security permissions in the Azure cloud environment. You'll learn how to create file shares, assign permissions, and utilize Azure security groups without repeating the initial setup process. <br />
 
 <h2>Environments and Technologies Used</h2>
 
