@@ -114,9 +114,6 @@ Building on a previously established domain controller and Client-1 VM, this tut
     <li>On Client-1, as banu.bij, try to access the accountants folder. It should fail.</li>
           <img width="457" alt="image" src="https://github.com/user-attachments/assets/1d18d02e-7542-40da-8e94-6841b8deb367" />
          <img width="710" alt="image" src="https://github.com/user-attachments/assets/0c41b7be-d573-4208-8ae2-eae98472757b" />
-
-
-
     <li>Log out of Client-1 as banu.bij</li>
     <li>on DC-1, make banu.bij a member of the "ACCOUNTANTS" Security Group</li>
     <li>Sign back nto Client-1 as banu.bij and try to access the "accounting" share in \\dc-1.  Does it work now?</li>
