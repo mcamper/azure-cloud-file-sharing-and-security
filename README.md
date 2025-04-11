@@ -43,7 +43,7 @@ Building on a previously established domain controller and Client-1 VM, this tut
           <img width="254" alt="image" src="https://github.com/user-attachments/assets/e7ca5f69-1497-4303-982a-ce31890442a6" />
       <li>Connect/log into Client-1 as a normal user (mydomain\banu.bij) password: Password1</li>
           <img width="302" alt="image" src="https://github.com/user-attachments/assets/c73d4839-c702-4a6f-83b2-15887bab7d8e" />
-      <li>On DC-1, on the C:\drive, reate 4 folders: "read-access", "write-access", "no-access", "accounting"</li>
+      <li>On DC-1, on the C:\drive, create 4 folders: "read-access", "write-access", "no-access", "accounting"</li>
           <img width="272" alt="image" src="https://github.com/user-attachments/assets/42596134-aa9a-4bc2-a119-9270bb79ab55" />
           <img width="589" alt="image" src="https://github.com/user-attachments/assets/cea96a53-05e2-4a18-85be-ad4ecc237d36" />
           <img width="451" alt="image" src="https://github.com/user-attachments/assets/09b27a4d-e8a9-44de-917f-a70bcd4ca274" />
